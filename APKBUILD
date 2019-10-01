@@ -32,6 +32,7 @@ _repository="android_kernel_msm"
 _commit="2513d2388ed10f8dbb80088426c6e402b2e9eb6b"
 _config="config-${_flavor}.${arch}"
 source="
+	$pkgname-$_commit.tar.gz::https://github.com/laserbeamh/${_repository}/archive/${_commit}.tar.gz
 	$pkgname-$_commit.tar.gz::https://android.googlesource.com/kernel/msm/+archive/${_commit}.tar.gz
 	$_config
 "
